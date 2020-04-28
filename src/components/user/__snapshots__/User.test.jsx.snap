@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User matches a snapshot 1`] = `
+<figure>
+  <img
+    alt="dorjepadma"
+    src="https://avatars0.githubusercontent.com/u/59029366?v=4"
+  />
+  <figcaption>
+    <p>
+      dorjepadma
+    </p>
+    <p>
+      1
+    </p>
+    <p>
+      1
+       
+    </p>
+    <p />
+  </figcaption>
+</figure>
+`;
