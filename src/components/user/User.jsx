@@ -13,7 +13,7 @@ const User = ({ name, followers, following, URL, avatar_url }) => (
   </figure>
 );
 
-User.prototype = {
+User.propTypes = {
   avatar_url: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   followers: PropTypes.string.isRequired,
