@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import User from '../components/user/User.jsx';
-import { fetchUser } from '../services/github.js';
+import { fetchUserDetail } from '../services/github.js';
 
 export default class FinalUser extends Component {
   state = {
@@ -8,7 +8,7 @@ export default class FinalUser extends Component {
     loading: true,
   }
   componentDidMount() {
-    fetchUser()
+    fetchUserDetail()
       .then(user => this.setState({ user, loading: false }
       ));
   }
