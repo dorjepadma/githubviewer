@@ -1,6 +1,7 @@
 import React from 'react';
+import FinalUser from '../../containers/UserRepo.js';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <FinalUser/>;
 }
   

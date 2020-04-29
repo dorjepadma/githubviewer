@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const User = ({ name, followers, following, URL, avatar_url }) => (
+const User = ({ name, followers, following, url, avatar_url }) => (
   <figure>
     <img src={avatar_url} alt={name} />
     <figcaption>
       <p>{name}</p>
       <p>{followers}</p>
       <p>{following} </p>
-      <p>{URL}</p>
+      <p>{url}</p>
     </figcaption>
   </figure>
 );
@@ -18,6 +18,6 @@ User.propTypes = {
   name: PropTypes.string.isRequired,
   followers: PropTypes.string.isRequired,
   following: PropTypes.string.isRequired,
-  URL: PropTypes.string.isRequired
+  url: PropTypes.string.isRequired
 };
 export default User;
