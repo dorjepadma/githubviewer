@@ -1,7 +1,8 @@
 import React from 'react';
-import FinalUser from '../../containers/UserRepo.js';
+import GitHubViewer from '../../containers/GitHubViewer';
 
 export default function App() {
-  return <FinalUser/>;
+  return <GitHubViewer />;
+
 }
   

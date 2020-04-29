@@ -1,25 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
- 
-const User = ({ name, followers, following, url, avatar_url }) => (
+
+const User = ({ name, followers, following, profileUrl, avatar_url }) => (
+
   <figure style={{ margin: '1em' }}>
     <img alt={name} style={{ width: '25%' }} src={avatar_url} />
-    <figcaption>
+    <section>
       <div style={{ fontWeight: 'bold' }}>
-        <p>Name: {name}</p>
-        <p>Followers: {followers}</p>
+        <h3>Name: {name} </h3>
+        <p>Followers: {followers} </p>
         <p>Following: {following} </p>
-        <p>GitHub URL: {url}</p>
+        <a href={profileUrl} target="_blank" rel="noopener noreferrer">Profile</a>
       </div>
-    </figcaption>
+    </section>
   </figure>
+   
 );
 
 User.propTypes = {
   avatar_url: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  followers: PropTypes.string.isRequired,
-  following: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired
+  followers: PropTypes.number.isRequired,
+  following: PropTypes.number.isRequired,
+  profileUrl: PropTypes.string.isRequired
 };
 export default User;

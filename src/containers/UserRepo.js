@@ -8,10 +8,9 @@ export default class FinalUser extends Component {
     loading: true,
   }
   componentDidMount() {
-    console.log('test')
     fetchUser()
       .then(user => this.setState({ user, loading: false }
-      ))
+      ));
   }
   render() {
     const { user, loading } = this.state;
