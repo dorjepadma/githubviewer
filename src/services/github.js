@@ -15,7 +15,7 @@ export const fetchUserRepos = username => {
     .then(res => res.json())
     .then(json => json.map(repo => ({
       name: repo.name,
-      language: repo.language,
+      bio: repo.bio,
       url: repo.html_url,
       description: repo.description
     })));

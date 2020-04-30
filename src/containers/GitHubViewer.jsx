@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Controls from '../components/Controls';
 import UserDetail from './UserDetail';
-import UserRepo from './UserRepo';
+import UserRepos from './UserRepo';
 
 export default class GitHubViewer extends Component {
   state = {
@@ -26,7 +26,7 @@ export default class GitHubViewer extends Component {
       <>
         <Controls text={inputText} onChange={this.handleChange} onSubmit={this.handleSubmit} />
         <UserDetail username={username} />
-        <UserRepo username={username} />
+        <UserRepos username={username} />
       </>
     );
   }
