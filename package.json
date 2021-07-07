@@ -24,7 +24,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -47,7 +49,7 @@
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.2.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^25.4.0",
+    "jest": "^25.5.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.1",

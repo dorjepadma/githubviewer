@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders App 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="text"
+    onChange={[Function]}
+    type="text"
+    value="hi"
+  />
+  <button
+    variant="primary"
+  >
+    Submit
+  </button>
+</form>
+`;

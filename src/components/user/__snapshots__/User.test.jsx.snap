@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User matches a snapshot 1`] = `
+<figure
+  style={
+    Object {
+      "margin": "1em",
+    }
+  }
+>
+  <img
+    alt="dorjepadma"
+    src="https://avatars0.githubusercontent.com/u/59029366?v=4"
+    style={
+      Object {
+        "width": "25%",
+      }
+    }
+  />
+  <section>
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      <h3>
+        Name: 
+        dorjepadma
+         
+      </h3>
+      <p>
+        Followers: 
+        1
+         
+      </p>
+      <p>
+        Following: 
+        1
+         
+      </p>
+      <a
+        href="https://api.github.com/users/dorjepadma"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Profile
+      </a>
+    </div>
+  </section>
+</figure>
+`;
